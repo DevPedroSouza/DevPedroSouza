@@ -19,11 +19,7 @@ Me chamo **Pedro Souza Ramos**, tenho 18 anos e moro em São Paulo - SP. Atualme
 
 ### My Stack ~
 
-<img src="https://cdn.simpleicons.org/n8n/EA4B71" alt="n8n" title="n8n" width="40" height="40"/>
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" alt="Python" title="Python" width="40" height="40"/>
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg" alt="Java" title="Java" width="40" height="40"/>
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg" alt="Git" title="Git" width="40" height="40"/>
-<img src="https://cdn.simpleicons.org/github/FFFFFF" alt="GitHub" title="GitHub" width="40" height="40"/>
+<a href="https://n8n.io"><img src="https://cdn.simpleicons.org/n8n/EA4B71" alt="n8n" title="n8n" width="40" height="40"/></a> <a href="https://www.python.org"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" alt="Python" title="Python" width="40" height="40"/></a> <a href="https://www.java.com"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg" alt="Java" title="Java" width="40" height="40"/></a> <a href="https://git-scm.com"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg" alt="Git" title="Git" width="40" height="40"/></a> <a href="https://github.com/pedro-souza-ramos"><img src="https://cdn.simpleicons.org/github/FFFFFF" alt="GitHub" title="GitHub" width="40" height="40"/></a>
 
 <br clear="right">
 
