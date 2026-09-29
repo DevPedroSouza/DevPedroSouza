@@ -23,6 +23,52 @@ Me chamo **Pedro Souza Ramos**, tenho 18 anos e moro em São Paulo - SP. Atualme
 
 <br clear="right">
 
+### My Automations ~
+
+Alguns fluxos que mantenho no dia a dia com o **n8n**:
+
+**Atendimento e chamados pelo WhatsApp**
+Um assistente virtual recebe a solicitação do usuário no WhatsApp e o n8n abre o chamado direto no sistema de suporte. Antes disso, valida os dados e avisa se deu certo ou se faltou alguma informação.
+*Conecta:* WhatsApp → n8n → API do sistema de chamados
+
+<details>
+<summary>Ver como funciona</summary>
+
+```mermaid
+flowchart LR
+    A["WhatsApp: assistente virtual"] --> B["Webhook no n8n"]
+    B --> C["Normaliza os dados"]
+    C --> D{"Tem título e descrição?"}
+    D -- sim --> E["Abre o chamado no sistema"]
+    D -- não --> F["Pede a informação que faltou"]
+    E --> G{"Deu certo?"}
+    G -- sim --> H["Confirma: chamado aberto"]
+    G -- não --> I["Avisa da falha"]
+```
+
+</details>
+
+**Agendamento automático para pet shop**
+Clientes agendam serviços e consultas pelo WhatsApp. O fluxo consulta o preço do serviço, verifica a disponibilidade do dia, registra o agendamento na planilha, cria o evento na agenda e envia lembretes no dia anterior.
+*Conecta:* WhatsApp → n8n → Google Sheets → Google Calendar
+
+<details>
+<summary>Ver como funciona</summary>
+
+```mermaid
+flowchart LR
+    A["Cliente no WhatsApp"] --> B["Webhook no n8n"]
+    B --> C["Valida acesso, data e horário"]
+    C --> D["Consulta o preço na planilha"]
+    D --> E{"Horário disponível?"}
+    E -- sim --> F["Salva na planilha e cria evento no Google Calendar"]
+    E -- não --> G["Avisa que o dia está cheio"]
+    F --> H["Confirma o agendamento"]
+    I["Todo dia: busca os agendamentos de amanhã"] --> J["Envia lembrete no WhatsApp"]
+```
+
+</details>
+
 ### GitHub Stats
 
 [![GitHub Stats](https://github-readme-stats-two-omega-43.vercel.app/api?username=pedro-souza-ramos&show_icons=true&locale=pt-br&commits_year=2026&hide=contribs&cache_seconds=21600&bg_color=000000&title_color=ffffff&text_color=ffffff&icon_color=ffffff&border_color=ffffff&ring_color=ffffff&custom_title=My%20GitHub%20Statistics)](https://github.com/pedro-souza-ramos)
