@@ -28,14 +28,16 @@ Me chamo **Pedro Souza Ramos**, tenho 18 anos e moro em São Paulo - SP. Atualme
 Alguns fluxos que mantenho no dia a dia com o **n8n**:
 
 **Atendimento e chamados pelo WhatsApp**
+
 Um assistente virtual recebe a solicitação do usuário no WhatsApp e o n8n abre o chamado direto no sistema de suporte. Antes disso, valida os dados e avisa se deu certo ou se faltou alguma informação.
+
 *Conecta:* WhatsApp → n8n → API do sistema de chamados
 
 <details>
 <summary>Ver como funciona</summary>
 
 ```mermaid
-flowchart LR
+flowchart TD
     A["WhatsApp: assistente virtual"] --> B["Webhook no n8n"]
     B --> C["Normaliza os dados"]
     C --> D{"Tem título e descrição?"}
@@ -49,14 +51,16 @@ flowchart LR
 </details>
 
 **Agendamento automático para pet shop**
+
 Clientes agendam serviços e consultas pelo WhatsApp. O fluxo consulta o preço do serviço, verifica a disponibilidade do dia, registra o agendamento na planilha, cria o evento na agenda e envia lembretes no dia anterior.
+
 *Conecta:* WhatsApp → n8n → Google Sheets → Google Calendar
 
 <details>
 <summary>Ver como funciona</summary>
 
 ```mermaid
-flowchart LR
+flowchart TD
     A["Cliente no WhatsApp"] --> B["Webhook no n8n"]
     B --> C["Valida acesso, data e horário"]
     C --> D["Consulta o preço na planilha"]
