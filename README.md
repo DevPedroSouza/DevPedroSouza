@@ -10,7 +10,7 @@ Me chamo **Pedro Souza Ramos**, tenho 18 anos e moro em São Paulo - SP. Atualme
 
 ---
 
-<img align="right" width="45%" src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExbWdlNmtyYnMxZnJkeDY4N21yZ3dhMDVqcWFzdDJjdzBicjcwc2F6aiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/1dcLFNKRUKvte/giphy.gif" alt="GIF do perfil">
+<img align="right" width="45%" src="https://giffiles.alphacoders.com/126/126066.gif" alt="GIF do perfil">
 
 ### Connect with me!
 
