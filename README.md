@@ -19,16 +19,19 @@ Me chamo **Pedro Souza Ramos**, tenho 18 anos e moro em São Paulo - SP. Atualme
 
 ### My Stack ~
 
-<img src="https://cdn.simpleicons.org/n8n/EA4B71" alt="n8n" title="n8n" width="48" height="48"/>
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" alt="Python" title="Python" width="48" height="48"/>
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg" alt="Java" title="Java" width="48" height="48"/>
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg" alt="Git" title="Git" width="48" height="48"/>
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg" alt="GitHub" title="GitHub" width="48" height="48"/>
+<p>
+<img src="https://cdn.simpleicons.org/n8n/EA4B71" alt="n8n" title="n8n" width="48" height="48"/>&nbsp;
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" alt="Python" title="Python" width="48" height="48"/>&nbsp;
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg" alt="Java" title="Java" width="48" height="48"/>&nbsp;
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg" alt="Git" title="Git" width="48" height="48"/>&nbsp;
+<img src="https://cdn.simpleicons.org/github/FFFFFF" alt="GitHub" title="GitHub" width="48" height="48"/>
+</p>
 
 ### GitHub Stats
 
-[![GitHub Stats](https://github-readme-stats.vercel.app/api?username=pedro-souza-ramos&show_icons=true&locale=pt-br&commits_year=2026&hide=contribs&cache_seconds=21600&bg_color=000000&title_color=ffffff&text_color=ffffff&icon_color=ffffff&border_color=ffffff&ring_color=ffffff&custom_title=My%20GitHub%20Statistics)](https://github.com/pedro-souza-ramos)
-
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=pedro-souza-ramos&layout=compact&custom_title=Stack&langs_count=8&bg_color=000000&title_color=ffffff&text_color=ffffff&icon_color=ffffff&border_color=ffffff&ring_color=ffffff)](https://github.com/pedro-souza-ramos)
+<p>
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=pedro-souza-ramos&theme=github_dark&bg_color=000000&border_color=ffffff&title_color=ffffff&text_color=ffffff&icon_color=ffffff" alt="GitHub Stats" width="49%"/>
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=pedro-souza-ramos&theme=github_dark&bg_color=000000&border_color=ffffff&title_color=ffffff&text_color=ffffff" alt="Top Languages" width="49%"/>
+</p>
 
 ![github contribution grid snake animation](https://raw.githubusercontent.com/pedro-souza-ramos/pedro-souza-ramos/output/github-contribution-grid-snake-dark.svg)
